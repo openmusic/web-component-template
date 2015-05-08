@@ -6,14 +6,14 @@
 
 ## Installation
 
-Grab `Component.js` from the repo or do `npm install openmusic-web-component-template`.
+Grab `index.js` from the repo or do `npm install openmusic-web-component-template`.
 
 ### If not using any package manager
 
-Include `Component.js` before you use the component.
+Include `index.js` before you use the component:
 
 ```javascript
-<script src="XYController.js"></script>
+<script src="index.js"></script>
 ```
 
 It will be registered automatically as `openmusic-web-component-template`, so you can `document.createElement('openmusic-web-component-template')` or just have `<openmusic-web-component-template>` elements in your HTML source.
